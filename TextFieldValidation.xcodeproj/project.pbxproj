@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9991EF26191DFE8600BA3E21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F120E1191DF3E600F3820A /* Cocoa.framework */; };
+		9991EF2C191DFE8600BA3E21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9991EF2A191DFE8600BA3E21 /* InfoPlist.strings */; };
+		9991EF2E191DFE8600BA3E21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9991EF2D191DFE8600BA3E21 /* main.m */; };
+		9991EF32191DFE8600BA3E21 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9991EF30191DFE8600BA3E21 /* Credits.rtf */; };
+		9991EF35191DFE8600BA3E21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9991EF34191DFE8600BA3E21 /* AppDelegate.m */; };
+		9991EF38191DFE8600BA3E21 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9991EF36191DFE8600BA3E21 /* MainMenu.xib */; };
+		9991EF3A191DFE8600BA3E21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9991EF39191DFE8600BA3E21 /* Images.xcassets */; };
+		9991EF40191DFE8600BA3E21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F12100191DF3E600F3820A /* XCTest.framework */; };
+		9991EF41191DFE8600BA3E21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F120E1191DF3E600F3820A /* Cocoa.framework */; };
+		9991EF49191DFE8600BA3E21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9991EF47191DFE8600BA3E21 /* InfoPlist.strings */; };
+		9991EF4B191DFE8600BA3E21 /* TextFieldValidation2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9991EF4A191DFE8600BA3E21 /* TextFieldValidation2Tests.m */; };
+		9991EF52191E00F900BA3E21 /* IPAddressTextValidator.h in Sources */ = {isa = PBXBuildFile; fileRef = 99F12115191DF65600F3820A /* IPAddressTextValidator.h */; };
+		9991EF53191E00F900BA3E21 /* IPAddressTextValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F12116191DF65600F3820A /* IPAddressTextValidator.m */; };
+		9991EF54191E00F900BA3E21 /* LessThan30TextValidator.h in Sources */ = {isa = PBXBuildFile; fileRef = 99F12118191DFA7E00F3820A /* LessThan30TextValidator.h */; };
+		9991EF55191E00F900BA3E21 /* LessThan30TextValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F12119191DFA7E00F3820A /* LessThan30TextValidator.m */; };
 		99F120E2191DF3E600F3820A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F120E1191DF3E600F3820A /* Cocoa.framework */; };
 		99F120EC191DF3E600F3820A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99F120EA191DF3E600F3820A /* InfoPlist.strings */; };
 		99F120EE191DF3E600F3820A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F120ED191DF3E600F3820A /* main.m */; };
@@ -18,9 +33,18 @@
 		99F12102191DF3E600F3820A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F120E1191DF3E600F3820A /* Cocoa.framework */; };
 		99F1210A191DF3E600F3820A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99F12108191DF3E600F3820A /* InfoPlist.strings */; };
 		99F1210C191DF3E600F3820A /* TextFieldValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F1210B191DF3E600F3820A /* TextFieldValidationTests.m */; };
+		99F12117191DF65600F3820A /* IPAddressTextValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F12116191DF65600F3820A /* IPAddressTextValidator.m */; };
+		99F1211A191DFA7E00F3820A /* LessThan30TextValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F12119191DFA7E00F3820A /* LessThan30TextValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9991EF42191DFE8600BA3E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F120D6191DF3E600F3820A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9991EF24191DFE8600BA3E21;
+			remoteInfo = TextFieldValidation2;
+		};
 		99F12103191DF3E600F3820A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 99F120D6191DF3E600F3820A /* Project object */;
@@ -31,6 +55,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9991EF25191DFE8600BA3E21 /* TextFieldValidation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldValidation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9991EF29191DFE8600BA3E21 /* TextFieldValidation2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextFieldValidation2-Info.plist"; sourceTree = "<group>"; };
+		9991EF2B191DFE8600BA3E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9991EF2D191DFE8600BA3E21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9991EF2F191DFE8600BA3E21 /* TextFieldValidation2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextFieldValidation2-Prefix.pch"; sourceTree = "<group>"; };
+		9991EF31191DFE8600BA3E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9991EF33191DFE8600BA3E21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9991EF34191DFE8600BA3E21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9991EF37191DFE8600BA3E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9991EF39191DFE8600BA3E21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9991EF3F191DFE8600BA3E21 /* TextFieldValidation2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldValidation2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9991EF46191DFE8600BA3E21 /* TextFieldValidation2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextFieldValidation2Tests-Info.plist"; sourceTree = "<group>"; };
+		9991EF48191DFE8600BA3E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9991EF4A191DFE8600BA3E21 /* TextFieldValidation2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidation2Tests.m; sourceTree = "<group>"; };
 		99F120DE191DF3E600F3820A /* TextFieldValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F120E1191DF3E600F3820A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		99F120E4191DF3E600F3820A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,9 +88,30 @@
 		99F12107191DF3E600F3820A /* TextFieldValidationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextFieldValidationTests-Info.plist"; sourceTree = "<group>"; };
 		99F12109191DF3E600F3820A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99F1210B191DF3E600F3820A /* TextFieldValidationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidationTests.m; sourceTree = "<group>"; };
+		99F12115191DF65600F3820A /* IPAddressTextValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddressTextValidator.h; sourceTree = "<group>"; };
+		99F12116191DF65600F3820A /* IPAddressTextValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPAddressTextValidator.m; sourceTree = "<group>"; };
+		99F12118191DFA7E00F3820A /* LessThan30TextValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessThan30TextValidator.h; sourceTree = "<group>"; };
+		99F12119191DFA7E00F3820A /* LessThan30TextValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessThan30TextValidator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9991EF22191DFE8600BA3E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9991EF26191DFE8600BA3E21 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9991EF3C191DFE8600BA3E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9991EF41191DFE8600BA3E21 /* Cocoa.framework in Frameworks */,
+				9991EF40191DFE8600BA3E21 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99F120DB191DF3E600F3820A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,11 +132,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9991EF27191DFE8600BA3E21 /* TextFieldValidation2 */ = {
+			isa = PBXGroup;
+			children = (
+				9991EF33191DFE8600BA3E21 /* AppDelegate.h */,
+				9991EF34191DFE8600BA3E21 /* AppDelegate.m */,
+				9991EF36191DFE8600BA3E21 /* MainMenu.xib */,
+				9991EF39191DFE8600BA3E21 /* Images.xcassets */,
+				9991EF28191DFE8600BA3E21 /* Supporting Files */,
+			);
+			path = TextFieldValidation2;
+			sourceTree = "<group>";
+		};
+		9991EF28191DFE8600BA3E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9991EF29191DFE8600BA3E21 /* TextFieldValidation2-Info.plist */,
+				9991EF2A191DFE8600BA3E21 /* InfoPlist.strings */,
+				9991EF2D191DFE8600BA3E21 /* main.m */,
+				9991EF2F191DFE8600BA3E21 /* TextFieldValidation2-Prefix.pch */,
+				9991EF30191DFE8600BA3E21 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9991EF44191DFE8600BA3E21 /* TextFieldValidation2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9991EF4A191DFE8600BA3E21 /* TextFieldValidation2Tests.m */,
+				9991EF45191DFE8600BA3E21 /* Supporting Files */,
+			);
+			path = TextFieldValidation2Tests;
+			sourceTree = "<group>";
+		};
+		9991EF45191DFE8600BA3E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9991EF46191DFE8600BA3E21 /* TextFieldValidation2Tests-Info.plist */,
+				9991EF47191DFE8600BA3E21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		99F120D5191DF3E600F3820A = {
 			isa = PBXGroup;
 			children = (
 				99F120E7191DF3E600F3820A /* TextFieldValidation */,
 				99F12105191DF3E600F3820A /* TextFieldValidationTests */,
+				9991EF27191DFE8600BA3E21 /* TextFieldValidation2 */,
+				9991EF44191DFE8600BA3E21 /* TextFieldValidation2Tests */,
 				99F120E0191DF3E600F3820A /* Frameworks */,
 				99F120DF191DF3E600F3820A /* Products */,
 			);
@@ -88,6 +191,8 @@
 			children = (
 				99F120DE191DF3E600F3820A /* TextFieldValidation.app */,
 				99F120FF191DF3E600F3820A /* TextFieldValidationTests.xctest */,
+				9991EF25191DFE8600BA3E21 /* TextFieldValidation2.app */,
+				9991EF3F191DFE8600BA3E21 /* TextFieldValidation2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +222,10 @@
 			children = (
 				99F120F3191DF3E600F3820A /* AppDelegate.h */,
 				99F120F4191DF3E600F3820A /* AppDelegate.m */,
+				99F12115191DF65600F3820A /* IPAddressTextValidator.h */,
+				99F12116191DF65600F3820A /* IPAddressTextValidator.m */,
+				99F12118191DFA7E00F3820A /* LessThan30TextValidator.h */,
+				99F12119191DFA7E00F3820A /* LessThan30TextValidator.m */,
 				99F120F6191DF3E600F3820A /* MainMenu.xib */,
 				99F120F9191DF3E600F3820A /* Images.xcassets */,
 				99F120E8191DF3E600F3820A /* Supporting Files */,
@@ -157,6 +266,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9991EF24191DFE8600BA3E21 /* TextFieldValidation2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9991EF50191DFE8600BA3E21 /* Build configuration list for PBXNativeTarget "TextFieldValidation2" */;
+			buildPhases = (
+				9991EF21191DFE8600BA3E21 /* Sources */,
+				9991EF22191DFE8600BA3E21 /* Frameworks */,
+				9991EF23191DFE8600BA3E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldValidation2;
+			productName = TextFieldValidation2;
+			productReference = 9991EF25191DFE8600BA3E21 /* TextFieldValidation2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9991EF3E191DFE8600BA3E21 /* TextFieldValidation2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9991EF51191DFE8600BA3E21 /* Build configuration list for PBXNativeTarget "TextFieldValidation2Tests" */;
+			buildPhases = (
+				9991EF3B191DFE8600BA3E21 /* Sources */,
+				9991EF3C191DFE8600BA3E21 /* Frameworks */,
+				9991EF3D191DFE8600BA3E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9991EF43191DFE8600BA3E21 /* PBXTargetDependency */,
+			);
+			name = TextFieldValidation2Tests;
+			productName = TextFieldValidation2Tests;
+			productReference = 9991EF3F191DFE8600BA3E21 /* TextFieldValidation2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		99F120DD191DF3E600F3820A /* TextFieldValidation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99F1210F191DF3E600F3820A /* Build configuration list for PBXNativeTarget "TextFieldValidation" */;
@@ -201,6 +345,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "NUNOKAWA Masato";
 				TargetAttributes = {
+					9991EF3E191DFE8600BA3E21 = {
+						TestTargetID = 99F120DD191DF3E600F3820A;
+					};
 					99F120FE191DF3E600F3820A = {
 						TestTargetID = 99F120DD191DF3E600F3820A;
 					};
@@ -221,11 +368,32 @@
 			targets = (
 				99F120DD191DF3E600F3820A /* TextFieldValidation */,
 				99F120FE191DF3E600F3820A /* TextFieldValidationTests */,
+				9991EF24191DFE8600BA3E21 /* TextFieldValidation2 */,
+				9991EF3E191DFE8600BA3E21 /* TextFieldValidation2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9991EF23191DFE8600BA3E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9991EF2C191DFE8600BA3E21 /* InfoPlist.strings in Resources */,
+				9991EF3A191DFE8600BA3E21 /* Images.xcassets in Resources */,
+				9991EF32191DFE8600BA3E21 /* Credits.rtf in Resources */,
+				9991EF38191DFE8600BA3E21 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9991EF3D191DFE8600BA3E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9991EF49191DFE8600BA3E21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99F120DC191DF3E600F3820A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,10 +416,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9991EF21191DFE8600BA3E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9991EF52191E00F900BA3E21 /* IPAddressTextValidator.h in Sources */,
+				9991EF53191E00F900BA3E21 /* IPAddressTextValidator.m in Sources */,
+				9991EF54191E00F900BA3E21 /* LessThan30TextValidator.h in Sources */,
+				9991EF55191E00F900BA3E21 /* LessThan30TextValidator.m in Sources */,
+				9991EF35191DFE8600BA3E21 /* AppDelegate.m in Sources */,
+				9991EF2E191DFE8600BA3E21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9991EF3B191DFE8600BA3E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9991EF4B191DFE8600BA3E21 /* TextFieldValidation2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99F120DA191DF3E600F3820A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F1211A191DFA7E00F3820A /* LessThan30TextValidator.m in Sources */,
+				99F12117191DF65600F3820A /* IPAddressTextValidator.m in Sources */,
 				99F120F5191DF3E600F3820A /* AppDelegate.m in Sources */,
 				99F120EE191DF3E600F3820A /* main.m in Sources */,
 			);
@@ -268,6 +459,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9991EF43191DFE8600BA3E21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9991EF24191DFE8600BA3E21 /* TextFieldValidation2 */;
+			targetProxy = 9991EF42191DFE8600BA3E21 /* PBXContainerItemProxy */;
+		};
 		99F12104191DF3E600F3820A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 99F120DD191DF3E600F3820A /* TextFieldValidation */;
@@ -276,6 +472,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9991EF2A191DFE8600BA3E21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9991EF2B191DFE8600BA3E21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9991EF30191DFE8600BA3E21 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9991EF31191DFE8600BA3E21 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9991EF36191DFE8600BA3E21 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9991EF37191DFE8600BA3E21 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		9991EF47191DFE8600BA3E21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9991EF48191DFE8600BA3E21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		99F120EA191DF3E600F3820A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -311,6 +539,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9991EF4C191DFE8600BA3E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldValidation2/TextFieldValidation2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TextFieldValidation2/TextFieldValidation2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9991EF4D191DFE8600BA3E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldValidation2/TextFieldValidation2-Prefix.pch";
+				INFOPLIST_FILE = "TextFieldValidation2/TextFieldValidation2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9991EF4E191DFE8600BA3E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextFieldValidation.app/Contents/MacOS/TextFieldValidation";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldValidation2/TextFieldValidation2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TextFieldValidation2Tests/TextFieldValidation2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9991EF4F191DFE8600BA3E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextFieldValidation.app/Contents/MacOS/TextFieldValidation";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldValidation2/TextFieldValidation2-Prefix.pch";
+				INFOPLIST_FILE = "TextFieldValidation2Tests/TextFieldValidation2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		99F1210D191DF3E600F3820A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -450,6 +748,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9991EF50191DFE8600BA3E21 /* Build configuration list for PBXNativeTarget "TextFieldValidation2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9991EF4C191DFE8600BA3E21 /* Debug */,
+				9991EF4D191DFE8600BA3E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9991EF51191DFE8600BA3E21 /* Build configuration list for PBXNativeTarget "TextFieldValidation2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9991EF4E191DFE8600BA3E21 /* Debug */,
+				9991EF4F191DFE8600BA3E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		99F120D9191DF3E600F3820A /* Build configuration list for PBXProject "TextFieldValidation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -466,6 +780,7 @@
 				99F12111191DF3E600F3820A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99F12112191DF3E600F3820A /* Build configuration list for PBXNativeTarget "TextFieldValidationTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +789,7 @@
 				99F12114191DF3E600F3820A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -38,6 +38,16 @@
                ReferencedContainer = "container:TextFieldValidation.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9991EF3E191DFE8600BA3E21"
+               BuildableName = "TextFieldValidation2Tests.xctest"
+               BlueprintName = "TextFieldValidation2Tests"
+               ReferencedContainer = "container:TextFieldValidation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

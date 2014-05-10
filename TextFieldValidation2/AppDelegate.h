@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  TextFieldValidation
+//  TextFieldValidation2
 //
 //  Created by 布川祐人 on 2014/05/10.
 //  Copyright (c) 2014年 NUNOKAWA Masato. All rights reserved.
@@ -14,4 +14,7 @@
 @property (weak) IBOutlet NSTextField *textField0;
 @property (weak) IBOutlet NSTextField *textField1;
 
+
+@property (nonatomic, copy) NSString *text0;
+@property (nonatomic, copy) NSString *text1;
 @end
